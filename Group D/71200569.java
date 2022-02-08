@@ -13,9 +13,6 @@ class main {
         for (int i=1; i<=n; i++)
             hasil += i;
         System.out.println("Jumlah bilangan = " + hasil);
-
-        String nama = "Damianus Atisanta Sahasrakirana";
-        String nim = "71200569";
-        System.out.println("TERIMA KASIH " + nim + " " + nama);
+ 
     }
 }
