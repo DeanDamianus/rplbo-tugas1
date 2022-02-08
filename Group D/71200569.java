@@ -6,15 +6,13 @@ class main {
         System.out.println("Menghitung Bilangan 1 sampai n bilangan");
         System.out.println("________________________________________________");
 
-        int n;
+        System.out.println("NIM anda 71200569 dan 3 digit terakhir 569");
+        int n = 569;
         int hasil = 0;
-
-        Scanner x = new Scanner(System.in);
-        System.out.print("Masukan banyak bilangan = ");
-        n = x.nextInt();
 
         for (int i=1; i<=n; i++)
             hasil += i;
         System.out.println("Jumlah bilangan = " + hasil);
+        
     }
 }
