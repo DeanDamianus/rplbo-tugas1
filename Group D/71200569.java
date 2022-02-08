@@ -1,21 +1,20 @@
-	class Hitung71200569 {
-		public static void main(String args[]) {
-			int x=10;
-			int y=25;
-			int z=x+y;
+package soal1;
+import java.util.*;
 
-			System.out.println("Hasil penjumlahan"
-				+" dari x+y = " + z);
-			System.out.println("Hasil akar kuadrato "
-				+"dari z = " + Math.sqrt(z));
-		}
-	}
+class main {
+    public static void main(String[] args) {
+        System.out.println("Menghitung Bilangan 1 sampai n bilangan");
+        System.out.println("________________________________________________");
 
-	class Nama71200569 {
-		public static void main(String args[]) {
-			String namadepan = "Damianus";
-			System.out.println("Nama depan saya adalah = " + namadepan);
-			System.out.println("Nama lengkap saya "
-				+"adalah = " + namadepan + "Atisantao");
-		}
-	}
+        int n;
+        int hasil = 0;
+
+        Scanner x = new Scanner(System.in);
+        System.out.print("Masukan banyak bilangan = ");
+        n = x.nextInt();
+
+        for (int i=1; i<=n; i++)
+            hasil += i;
+        System.out.println("Jumlah bilangan = " + hasil);
+    }
+}
